@@ -15,10 +15,24 @@ const Stack = () => {
       pagination={{ clickable: true }}
       direction="horizontal"
       className="mySwiper"
+      breakpoints={{
+        220: {
+          slidesPerView: 1,
+        },
+        520: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+        1440: {
+          slidesPerView: 4,
+        },
+      }}
     >
       {techStack.map((tech, index) => (
-        <SwiperSlide key={index} className="flex mt-4 justify-center">
-          <div className="flex flex-col gap-y-3 rounded-lg shadow-lg shadow-[#5b22c5] h-[190px] w-[80%] bg-gray-900 border-2 border-[#5a31a6] items-center justify-center">
+        <SwiperSlide key={index} className="flex mt-4 ml-2  items-center">
+          <div className="flex  flex-col gap-y-3 rounded-lg shadow-lg shadow-[#5b22c5] h-[190px] w-[80%] bg-gray-900 border-2 border-[#5a31a6] items-center justify-center">
             <img
               className="w-[140px] aspect-6/4"
               src={tech.image}

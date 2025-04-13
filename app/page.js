@@ -19,6 +19,7 @@ export default function Home() {
         {/* Services */}
 
         <motion.div
+          id="services"
           className="grid grid-cols-1 p-12 md:grid-cols-2 lg:grid-cols-3 gap-6"
           initial={{ opacity: 0, y: 150 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -31,6 +32,7 @@ export default function Home() {
         {/* About Section */}
 
         <motion.div
+          id="about"
           className="text-center space-y-4"
           initial={{ opacity: 0, y: 150 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -51,6 +53,7 @@ export default function Home() {
         </motion.div>
 
         <motion.div
+          id="stack"
           className="mt-14"
           initial={{ opacity: 0, y: 150 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -62,6 +65,7 @@ export default function Home() {
         </motion.div>
 
         <motion.section
+          id="projects"
           className="mt-10"
           initial={{ opacity: 0, y: 150 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -74,6 +78,7 @@ export default function Home() {
         </motion.section>
 
         <motion.div
+          id="contact"
           className="max-w-[70%] mx-auto mt-14 space-y-4"
           initial={{ opacity: 0, y: 150 }}
           whileInView={{ opacity: 1, y: 0 }}
