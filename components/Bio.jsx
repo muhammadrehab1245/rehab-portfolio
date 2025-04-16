@@ -28,7 +28,7 @@ const Bio = () => {
         <p className="mt-4 text-lg">
           Creating Flawless and Immersive Experiences
         </p>
-        <div className="flex mt-6 gap-4">
+        <div className="flex flex-col md:flex-row mt-6 gap-4">
           <Button className="px-6 cursor-pointer py-3 bg-[#5a31a6] text-white rounded-lg">
             <a
               href="https://www.linkedin.com/in/muhammad-rehab-167b90216/"
@@ -72,7 +72,7 @@ const Bio = () => {
         </div>
       </div>
 
-      <div className="z-10 order-1 lg:order-2 bg-gray-900 mx-auto w-64 h-64 sm:w-44 sm:h-80 md:w-[350px] md:h-[350px] lg:w-[450px] lg:h-[430px] rounded-full overflow-hidden flex justify-center items-center border">
+      <div className="z-10 order-1 lg:order-2 bg-gray-900 mx-auto  sm:w-64 sm:h-64 md:w-[350px] md:h-[350px] lg:w-[450px] lg:h-[430px] rounded-full overflow-hidden flex justify-center items-center border">
         <img
           src="mypic.png"
           alt="Muhammad Rehab"
