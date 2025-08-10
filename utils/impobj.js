@@ -38,6 +38,14 @@ export const techStack = [
   ];
 
   export const projects = [
+     {
+  title: "Dashboard with Chart JS and React MUI",
+  description:
+    "An interactive admin dashboard built with React and Material UI, featuring dynamic charts powered by Chart.js, responsive layouts, and real-time data visualization for effective analytics.",
+  image: "dashboard.png",
+  github: "https://github.com/muhammadrehab1245/MUI-dashboard",
+  demo: "https://mui-dashboard-wheat.vercel.app/",
+},
     {
       title: "Food App Made By Chakra UI",
       description:
@@ -90,4 +98,6 @@ export const techStack = [
         "https://github.com/muhammadrehab1245/Digital-Clock-Using-HTML-CSS-and-JS",
       demo: "       https://digitalclokk.netlify.app/clock",
     },
+
+
   ];
