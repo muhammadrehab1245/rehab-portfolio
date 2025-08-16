@@ -39,6 +39,14 @@ export const techStack = [
 
   export const projects = [
      {
+  title: "Soneri Bank Cloning UI'S and Functionality",
+    description:
+    "During my internship at Soneri Bank, I worked on cloning parts of their UI and core functionalities like signup, username, and forgot password flows. I also integrated map libraries to display bank ATMs and branches using react-google-maps.",
+  image: "clone-git.png",
+  github: "https://github.com/muhammadrehab1245/SoneriBank-Clone-Task/tree/main/soneri%20bank",
+  demo: null,
+},
+  {
   title: "Dashboard with Chart JS and React MUI",
   description:
     "An interactive admin dashboard built with React and Material UI, featuring dynamic charts powered by Chart.js, responsive layouts, and real-time data visualization for effective analytics.",

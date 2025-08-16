@@ -47,7 +47,7 @@ const Projects = () => {
                                     Github Repository <FaSquareGithub size={20} />
                                   </Button>
                                 </a>
-                                <a
+                                {project.demo &&  <a
                                   href={project.demo}
                                   target="_blank"
                                   rel="noopener noreferrer"
@@ -55,7 +55,8 @@ const Projects = () => {
                                   <Button className="flex items-center gap-2 px-3 py-2 bg-[#5a31a6] text-white rounded-lg">
                                     Demo Link <FaDemocrat size={20} />
                                   </Button>
-                                </a>
+                                </a>}
+                               
                               </div>
                             </div>
                           </DisclosurePanel>
